@@ -15,7 +15,7 @@ span{
 }
 h1{
       color: #009900;
-      font-size: 30px;
+      font-size: 240%
 }
 img{
       float: left;
@@ -54,3 +54,30 @@ a:hover{
     text-decoration: none;
     font-style: normal;
 }
+body{
+      background: #b3d7db
+}
+#container{
+      width: 80%;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      background: white
+}
+header{
+      display: block;
+      background: #333;
+      color: white
+}
+footer {
+    display:block;  /*古めのブラウザ対策のため、一応ブロックレベルに*/
+    background:#333;
+    color:white;
+    font-weight:bold;  /*太く*/
+    font-size:85%;  /*ちょっと小さい文字で*/
+    line-height:1em;  /*行の高さは1文字分（全体が 1.6文字分になってるので詰めた）*/
+    text-align: center;  /*テキストはセンター合わせに*/
+    padding: 10px  /*パディングを10pxに*/
+    }
+footer a {color:#ccc}
+footer a:hover {color:#6c9}
